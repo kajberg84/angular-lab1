@@ -6,14 +6,19 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './materialUi/material.module';
 import { HomeComponent } from './home/home.component';
-import { Page1Component } from './page1/page1.component';
+import { InfopageComponent } from './infopage/infopage.component';
+import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
+import { SpaComponent } from './pages/spa/spa.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutmeComponent,
     HomeComponent,
-    Page1Component,
+    InfopageComponent,
+    AngularinfoComponent,
+    SpaComponent,
   ],
   imports: [
     BrowserModule,

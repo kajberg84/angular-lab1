@@ -8,11 +8,11 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'kaj-angular';
-  // links = [
-  //   {path: '/home', icon: 'home', title: 'home'},
-  //   {path: '/aboutme', icon: 'aboutme', title: 'About me'}
-  // ];
+  links = [
+    {path: '/home', icon: 'home', title: 'home'},
+    {path: '/aboutme', icon: 'aboutme', title: 'About me'}
+  ];
 
-  // constructor(){};
+  constructor(){};
 
 }
