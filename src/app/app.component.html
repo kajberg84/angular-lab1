@@ -5,23 +5,19 @@
 <mat-card>
   <mat-card-header>
     <mat-card-title>Kossan</mat-card-title>
-    <mat-card-subtitle>Bor med barnen</mat-card-subtitle>
+    <mat-card-subtitle>Äter gräs</mat-card-subtitle>
   </mat-card-header>
-  <!-- <img matCardImage src="Card wide image source"> -->
+
   <mat-card-content>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, quam! Iste aliquid rem eum debitis repellendus
     quibusdam fugit facilis unde animi, exercitationem aspernatur vel sit repudiandae aut explicabo consequatur neque?
   </mat-card-content>
-  <mat-card-footer>
+
+  <mat-card-footer class="app-footer">
     Footer
   </mat-card-footer>
 </mat-card>
 
-<mat-card>
-  <mat-form-field appearance="fill">
-    <mat-label>
-      Kossans mat
-    </mat-label>
-    <input matInput>
-  </mat-form-field>
-  </mat-card>
+<app-aboutme></app-aboutme>
+
+<router-outlet></router-outlet>
