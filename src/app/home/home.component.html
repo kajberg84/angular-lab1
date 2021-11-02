@@ -1,2 +1,23 @@
-<p>home works!</p>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{welcome}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let name of names" (click)="selectName(name)">
+        <h3>{{name.first}}</h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>>
 
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>DEBUG</mat-card-title>
+          </mat-card-header>
+    <mat-card-content>
+        <span *ngIf="currentName; else elseBlock">{{currentName | json}}</span>
+        <ng-template #elseBlock> Render this if name has null value</ng-template>
+    </mat-card-content>
+    
+</mat-card>

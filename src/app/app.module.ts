@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { InfopageComponent } from './infopage/infopage.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,12 +19,13 @@ import { SpaComponent } from './pages/spa/spa.component';
     HomeComponent,
     InfopageComponent,
     AngularinfoComponent,
-    SpaComponent,
+    SpaComponent,    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MaterialModule
   ],
   providers: [],
