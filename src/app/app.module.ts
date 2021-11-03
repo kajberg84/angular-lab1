@@ -18,7 +18,7 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     InfopageComponent,
     AngularinfoComponent,
-    SpaComponent,    
+    SpaComponent,
   ],
   imports: [
     BrowserModule,

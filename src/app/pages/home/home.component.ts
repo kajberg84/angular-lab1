@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
 
   welcome = 'Välkomna';
   currentName = null;
+
   names = [
     {first: 'Kaj'},
     {first: 'Tor'},
@@ -23,7 +24,6 @@ export class HomeComponent implements OnInit {
   }
 
   selectName(name: any): void {
-   console.log('selected name: ', name);
     this.currentName = name;
   } 
 }
