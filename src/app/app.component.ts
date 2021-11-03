@@ -6,13 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent {
+export class AppComponent{
   title = 'kaj-angular';
-  links = [
-    {path: '/home', icon: 'home', title: 'home'},
-    {path: '/aboutme', icon: 'aboutme', title: 'About me'}
-  ];
+
+  //  links = [
+  //   {path: '/home', icon: 'home', title: 'home'},
+  //   {path: '/aboutme', icon: 'aboutme', title: 'About me'}
+  // ];
 
   constructor(){};
-
 }

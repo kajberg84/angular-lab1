@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutmeComponent } from './aboutme/aboutme.component';
-import { HomeComponent } from './home/home.component';
-import { InfopageComponent } from './infopage/infopage.component';
+import { AboutmeComponent } from './pages/aboutme/aboutme.component';
+import { HomeComponent } from './pages/home/home.component';
+import { InfopageComponent } from './pages/infopage/infopage.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
 

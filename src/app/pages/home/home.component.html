@@ -2,6 +2,7 @@
   <mat-card-header>
     <mat-card-title>{{welcome}}</mat-card-title>
   </mat-card-header>
+
   <mat-card-content>
     <mat-list>
       <mat-list-item *ngFor="let name of names" (click)="selectName(name)">
@@ -9,6 +10,7 @@
       </mat-list-item>
     </mat-list>
   </mat-card-content>
+
 </mat-card>>
 
 <mat-card>
@@ -19,5 +21,4 @@
         <span *ngIf="currentName; else elseBlock">{{currentName | json}}</span>
         <ng-template #elseBlock> Render this if name has null value</ng-template>
     </mat-card-content>
-    
 </mat-card>
