@@ -1,26 +1,5 @@
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>{{welcome}}</mat-card-title>
-  </mat-card-header>
-
-  <mat-card-content>
-    <mat-list>
-      <mat-list-item *ngFor="let name of names" (click)="selectName(name)">
-        <h3>{{name.first}}</h3>
-      </mat-list-item>
-    </mat-list>
-  </mat-card-content>
-
-</mat-card>
-
-<mat-card>
-    <mat-card-header>
-        <mat-card-title>You clicked this</mat-card-title>
-          </mat-card-header>
-    <mat-card-content>
-
-        <span *ngIf="currentName; else elseBlock">{{currentName | json}}</span>
-
-        <ng-template #elseBlock> Select a name</ng-template>
-    </mat-card-content>
-</mat-card>
+<!-- <mat-card>
+    <mat-card-title>
+      <h1>Home</h1>
+    </mat-card-title>
+</mat-card> -->

@@ -2,24 +2,23 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { HomeComponent } from './pages/home/home.component';
-import { InfopageComponent } from './pages/infopage/infopage.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutmeComponent },
-  { path: 'infopage', component: InfopageComponent,  
-  children: [
-    {
-      path: 'angularinfo', 
-      component: AngularinfoComponent, 
+  { path: 'angular', component: AngularinfoComponent,  
+  // children: [
+    //   {
+      //     path: 'info', 
+      //     component: AngularinfoComponent, 
+      //   },
+      // ], 
     },
-    {
-      path: 'spa',
-      component: SpaComponent, 
-    },
-  ], },
+  { path: 'spa', component: SpaComponent },
+  { path: 'typescript', component: SpaComponent },
+
   { path: '**', redirectTo: '/home' },
 
 ];

@@ -6,19 +6,23 @@ import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './materialUi/material.module';
 import { HomeComponent } from './pages/home/home.component';
-import { InfopageComponent } from './pages/infopage/infopage.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TypescriptinfoComponent } from './components/typescriptinfo/typescriptinfo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutmeComponent,
     HomeComponent,
-    InfopageComponent,
     AngularinfoComponent,
     SpaComponent,
+    FooterComponent,
+    HeaderComponent,
+    TypescriptinfoComponent
   ],
   imports: [
     BrowserModule,

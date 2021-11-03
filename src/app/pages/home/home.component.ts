@@ -8,23 +8,10 @@ import { Component, OnInit } from '@angular/core';
 
 export class HomeComponent implements OnInit {
 
-  welcome = 'Välkomna';
-  currentName = null;
-
-  names = [
-    {first: 'Kaj'},
-    {first: 'Tor'},
-    {first: 'Freja'},
-    {first: 'Lina'},
-  ]
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  selectName(name: any): void {
-    this.currentName = name;
-  } 
 }
 
