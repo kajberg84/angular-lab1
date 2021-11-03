@@ -1,3 +1,16 @@
 .footer-content {
-  
+  background-color: #CCCCCC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .footer-menu{
+    margin-left: 2rem;
+    p{
+      font-size: small;
+    }
+  }
+  .footer-social {
+    margin-right: 2rem;
+  }
 }

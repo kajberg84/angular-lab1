@@ -4,6 +4,7 @@ import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
+import { TypescriptinfoComponent } from './components/typescriptinfo/typescriptinfo.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -17,7 +18,7 @@ const routes: Routes = [
       // ], 
     },
   { path: 'spa', component: SpaComponent },
-  { path: 'typescript', component: SpaComponent },
+  { path: 'typescript', component: TypescriptinfoComponent },
 
   { path: '**', redirectTo: '/home' },
 
