@@ -7,10 +7,24 @@
   .footer-menu{
     margin-left: 2rem;
     p{
-      font-size: small;
+      font-size: smaller;
+      font-style: italic;
     }
   }
   .footer-social {
     margin-right: 2rem;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
   }
+}
+
+.theme-button {
+  margin-right: 2rem;
+}
+
+.linked-icon {
+  margin-right: 1rem;
 }

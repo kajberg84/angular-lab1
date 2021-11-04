@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "mont-serrat", sans-serif; }
 
 :root {
  --primary-color:#63AFFF;
+ --primary-text-dark:#121212;
 }
 
 * {
@@ -13,8 +14,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   box-sizing: border-box;
   list-style: none;
   text-decoration: none; 
+  color:var(--primary-text-dark);
 }
-
 
 header, footer {
   height: 10vh;
@@ -22,4 +23,9 @@ header, footer {
 
 .main-container {
   min-height: 80vh;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  cursor: pointer;
 }

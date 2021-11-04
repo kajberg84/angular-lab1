@@ -4,7 +4,15 @@
   p {
     margin: 10px;
   }
-   .home-image {
-     margin-top:100px;
-   }
+}
+
+.home-wrapper_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.home-wrapper_image {
+  padding: 100px 0;
 }
