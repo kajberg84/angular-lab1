@@ -7,7 +7,7 @@ import { SpaComponent } from './pages/spa/spa.component';
 import { TypescriptinfoComponent } from './components/typescriptinfo/typescriptinfo.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutmeComponent },
   { path: 'angular', component: AngularinfoComponent,  
   // children: [
@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'spa', component: SpaComponent },
   { path: 'typescript', component: TypescriptinfoComponent },
 
-  { path: '**', redirectTo: '/home' },
+  { path: '**', redirectTo: '/' },
 
 ];
 
