@@ -4,7 +4,7 @@ import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
-import { TypescriptinfoComponent } from './components/typescriptinfo/typescriptinfo.component';
+import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

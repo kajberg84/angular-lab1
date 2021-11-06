@@ -28,3 +28,25 @@ a:link, a:visited {
   text-decoration: none;
   cursor: pointer;
 }
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  p {
+    margin-top:2rem ;
+  }
+}
+
+.main-wrapper_text {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 10rem 0;
+}
+
+.main-wrapper_image {
+  margin-top: 50px;
+}
+
+.pri-color{
+  color: var( --primary-color);
+}

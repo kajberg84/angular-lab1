@@ -11,7 +11,7 @@ import { SpaComponent } from './pages/spa/spa.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { TypescriptinfoComponent } from './components/typescriptinfo/typescriptinfo.component';
+import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.component';
 
 @NgModule({
   declarations: [
@@ -22,16 +22,16 @@ import { TypescriptinfoComponent } from './components/typescriptinfo/typescripti
     SpaComponent,
     FooterComponent,
     HeaderComponent,
-    TypescriptinfoComponent
+    TypescriptinfoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    MaterialModule
+    MaterialModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
