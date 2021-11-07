@@ -1,0 +1,24 @@
+.ang-h1 {
+  text-align: center;
+}
+
+.ang-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.ang-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.ang-wrapper_text
+ {
+  width: 50%;
+}
+
+.ang-image_wrapper {
+  text-align: right;
+  padding-left: 20px;
+}
