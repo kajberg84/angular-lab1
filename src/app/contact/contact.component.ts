@@ -11,6 +11,8 @@ export class ContactComponent {
     email: '',
     message: ''
   }
+  
+ userMessages = []
 
 onSubmit(){
   // Om jag skulle orka så fixa en mongodb o fixa persistence.
