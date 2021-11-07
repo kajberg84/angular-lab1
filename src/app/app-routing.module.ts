@@ -5,6 +5,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AngularinfoComponent } from './pages/angularinfo/angularinfo.component';
 import { SpaComponent } from './pages/spa/spa.component';
 import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
     },
   { path: 'spa', component: SpaComponent },
   { path: 'typescript', component: TypescriptinfoComponent },
+  { path: 'contact', component: ContactComponent },
 
   { path: '**', redirectTo: '/' },
 

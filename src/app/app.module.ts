@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.c
     FooterComponent,
     HeaderComponent,
     TypescriptinfoComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
