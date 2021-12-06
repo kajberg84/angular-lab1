@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { KossaService } from 'src/app/kossa.service';
 
 @Component({
   selector: 'app-aboutme',
   templateUrl: './aboutme.component.html',
-  styleUrls: ['./aboutme.component.scss']
+  styleUrls: ['./aboutme.component.scss'],
 })
-export class AboutmeComponent implements OnInit {
+export class AboutmeComponent {
+  constructor(private kossa: KossaService) {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  getHeader(value: number) {
+    let heading = this.kossa.getHeadings();
+    return heading[value];
   }
-
 }
