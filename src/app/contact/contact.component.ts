@@ -3,19 +3,17 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent {
-
   userInput = {
     email: '',
-    message: ''
-  }
-  
- userMessages = []
+    message: '',
+  };
 
-onSubmit(){
-  // Om jag skulle orka så fixa en mongodb o fixa persistence.
-  console.log(this.userInput);
-}
+  userMessages = [];
+
+  onSubmit() {
+    console.log(this.userInput);
+  }
 }

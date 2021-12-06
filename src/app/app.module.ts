@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TypescriptinfoComponent } from './pages/typescriptinfo/typescriptinfo.component';
 import { ContactComponent } from './contact/contact.component';
+import { AngularbildComponent } from './pages/angularinfo/angularbild/angularbild.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ContactComponent } from './contact/contact.component';
     HeaderComponent,
     TypescriptinfoComponent,
     ContactComponent,
+    AngularbildComponent,
   ],
   imports: [
     BrowserModule,
